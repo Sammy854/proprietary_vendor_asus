@@ -1,9 +1,0 @@
-include $(CLEAR_VARS)
-LOCAL_MODULE := chromium
-LOCAL_MODULE_OWNER := chromium
-LOCAL_SRC_FILES := /home/samuele/Scaricati/chromium.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
